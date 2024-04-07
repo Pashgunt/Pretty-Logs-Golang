@@ -33,6 +33,6 @@ const (
 ```
 Also, the second and further parameter can be passed variables for output, which will be presented as json in the log
 ```Go
-	logger.Error("Test", slog.String("id", "123"), slog.String("username", "test"))
+logger.Error("Test", slog.String("id", "123"), slog.String("username", "test"))
 ```
-![image.png](image.png)
+<img width="391" alt="Снимок экрана 2024-04-07 в 18 40 40" src="https://github.com/Pashgunt/Pretty-Logs-Golang/assets/77012907/5bfb259a-b098-4531-923e-c2d36ae1d719">
